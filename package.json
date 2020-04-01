@@ -6,7 +6,7 @@
     "node": "13.9.0",
     "npm": "6.13.7"
   },
-  "homepage": "http://pavancse17.github.io/twitter_streams_frontend",
+  "homepage": "https://pavancse17.github.io/twitter_streams_frontend",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
