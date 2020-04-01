@@ -1,5 +1,5 @@
 const prod = {
-  API_URL: "https://myapp.herokuapp.com",
+  API_URL: "https://strawberry-pie-84465.herokuapp.com",
 };
 
 const dev = {
