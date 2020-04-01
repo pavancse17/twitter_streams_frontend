@@ -1,6 +1,8 @@
 import React from "react";
+import { triggerTweets } from "../actions";
+import { connect } from "react-redux";
 
-class SearchBox extends React.Component {
+class Search extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -14,7 +16,7 @@ class SearchBox extends React.Component {
 
   onKeyPressHandler = event => {
     if (event.key === "Enter") {
-      console.log("Enter key pressed");
+      this.props.dispatch(triggerTweets(this.state.searchedItem));
     }
   };
 
@@ -35,5 +37,5 @@ class SearchBox extends React.Component {
     );
   }
 }
-
+const SearchBox = connect(state => {})(Search);
 export { SearchBox };
