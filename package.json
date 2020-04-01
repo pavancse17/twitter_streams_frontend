@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "animate.css": "^3.7.2",
     "animate.css-react": "^1.0.0",
+    "tailwindcss": "^1.2.0",
     "moment": "^2.24.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -45,7 +46,6 @@
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "autoprefixer": "^9.7.5",
     "postcss-cli": "^7.1.0",
-    "redux-logger": "^3.0.6",
-    "tailwindcss": "^1.2.0"
+    "redux-logger": "^3.0.6"
   }
 }
